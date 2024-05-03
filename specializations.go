@@ -4,7 +4,7 @@ package gw2api
 type Specialization struct {
 	ID          int    `json:"id"`
 	Name        string `json:"name"`
-	Profession  string `json:"professions"`
+	Profession  string `json:"profession"`
 	Elite       bool   `json:"elite"`
 	Icon        string `json:"icon"`
 	Background  string `json:"background"`
